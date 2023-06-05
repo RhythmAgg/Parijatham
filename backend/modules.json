@@ -1,0 +1,2681 @@
+{
+    "modules": [
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2021-05-30T19:54:55+05:30",
+            "plural_label": "Diagnosis Group",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000041",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Account",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Accounts",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Accounts",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-12-31T13:03:35+05:30",
+            "plural_label": "In Work Up",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000043",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Deal",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Deals",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": true,
+            "scoring_supported": true,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Deals",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-08-23T12:43:34+05:30",
+            "plural_label": "Reports",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000047",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Report",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Reports",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Reports",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-28T14:50:02+05:30",
+            "plural_label": "SalesInbox",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000051",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "SalesInbox",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "SalesInbox",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "SalesInbox",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-28T14:50:02+05:30",
+            "plural_label": "Forecasts",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000073",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Forecast",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Forecasts",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Forecasts",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Documents",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000081",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Documents",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Documents",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Documents",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": true,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-28T14:50:02+05:30",
+            "plural_label": "Cases",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000093",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Case",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Cases",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Cases",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": true,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-08-23T12:43:34+05:30",
+            "plural_label": "Solutions",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000095",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Solution",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Solutions",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Solutions",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Products",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000097",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Product",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Products",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Products",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": true,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-11T14:42:17+05:30",
+            "plural_label": "Price Books",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000101",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Price Book",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Price_Books",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "PriceBooks",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": true,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-28T14:50:02+05:30",
+            "plural_label": "Receipts",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000256531",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Receipt",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Receipts",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "custom",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomModule3",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Karuna",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000001564004",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "singular_label": "Karuna",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Karuna",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "custom",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomModule6",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "billing",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000005934019",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": "https://creatorapp.zoho.in/drrameshmaturi/pregnancy#Form:Products",
+            "singular_label": "billing",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "billing",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "webtab_link",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "WebTab1",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-05-28T14:50:02+05:30",
+            "plural_label": "Visits",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000085",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 0,
+            "singular_label": "Visit",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Visits",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Visits",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-08-23T12:43:34+05:30",
+            "plural_label": "My Jobs",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000124348",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 1,
+            "singular_label": "My Jobs",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Approvals",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Approvals",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-04-16T21:39:10+05:30",
+            "plural_label": "Invoices",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000317007",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 1,
+            "singular_label": "Invoice",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "CustomModule5001",
+            "quick_create": true,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomModule5001",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Zoho_Books",
+                "id": "104423000000184551"
+            }
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Home",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000035",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 2,
+            "singular_label": "Home",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Home",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Home",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:18+05:30",
+            "plural_label": "Patients",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000039",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 3,
+            "singular_label": "Contact",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Contacts",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": true,
+            "arguments": [],
+            "module_name": "Contacts",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2022-03-01T17:55:10+05:30",
+            "plural_label": "Sales Orders",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000009583183",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 3,
+            "singular_label": "Sales Order",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "CustomModule5004",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomModule5004",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Zoho_Books",
+                "id": "104423000000184551"
+            }
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-08T20:28:22+05:30",
+            "plural_label": "PT Visits",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000228004",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 4,
+            "singular_label": "PT Visit",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "PT_Visits",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "custom",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": true,
+            "arguments": [],
+            "module_name": "CustomModule4",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-04-16T21:39:11+05:30",
+            "plural_label": "Purchase Orders",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000317906",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 4,
+            "singular_label": "Purchase Order",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "CustomModule5003",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomModule5003",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Zoho_Books",
+                "id": "104423000000184551"
+            }
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-28T21:10:00+05:30",
+            "plural_label": "Zoho Books",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000184551",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 5,
+            "singular_label": "Zoho Finance",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Zoho_Books",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Zoho Books",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:18+05:30",
+            "plural_label": "Leads",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000037",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": true,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 7,
+            "singular_label": "Lead",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Leads",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": true,
+            "arguments": [],
+            "module_name": "Leads",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-11-05T22:20:14+05:30",
+            "plural_label": "Prescription",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000002138066",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": "http://SCVF.do",
+            "sequence_number": 8,
+            "singular_label": "Prescription",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "Prescription",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "web",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "CustomTab1",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:19+05:30",
+            "plural_label": "Tasks",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000063",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 10,
+            "singular_label": "Task",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Tasks",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Tasks",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:19+05:30",
+            "plural_label": "Meetings",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000065",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 11,
+            "singular_label": "Meeting",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Events",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Meetings",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:19+05:30",
+            "plural_label": "Calls",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000067",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 12,
+            "singular_label": "Call",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Calls",
+            "quick_create": true,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Calls",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Google Ads",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000057",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 13,
+            "singular_label": "Google AdWord",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Google_AdWords",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Google AdWords",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2020-08-23T12:43:34+05:30",
+            "plural_label": "Social",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000083",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 14,
+            "singular_label": "Social",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Social",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Social",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Analytics",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000049",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 15,
+            "singular_label": "Analytics",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "Dashboards",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Dashboards",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Campaigns",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000055",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 16,
+            "singular_label": "Campaign",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Campaigns",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Campaigns",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Feeds",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000053",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 17,
+            "singular_label": "Feeds",
+            "viewable": true,
+            "api_supported": false,
+            "api_name": "Feeds",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Feeds",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-09T22:21:59+05:30",
+            "plural_label": "Projects",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000123032",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 18,
+            "singular_label": "Projects",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "Projects",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Projects",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2022-03-01T17:46:22+05:30",
+            "plural_label": "Vendors",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000000000099",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 19,
+            "singular_label": "Vendor",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Vendors",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Vendors",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "EmailSentiment",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000060001",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 25,
+            "singular_label": "EmailSentiment",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Email_Sentiment",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "EmailSentiment",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Email Analytics",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000114033",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 25,
+            "singular_label": "Email Analytics",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Email_Analytics",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Email Analytics",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Email Template Analytics",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000114132",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 25,
+            "singular_label": "Email Template Analytics",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Email_Template_Analytics",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Email Template Analytics",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2021-09-10T22:52:17+05:30",
+            "plural_label": "Subform 2",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000006553674",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 25,
+            "singular_label": "Subform 2",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Subform_2",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "subform",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "LinkingModule2",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Contacts",
+                "id": "104423000000000039"
+            }
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "track_current_data": true,
+            "plural_label": "Stage History",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000039001",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 27,
+            "singular_label": "Stage History",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "DealHistory",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "field_tracker",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "DealHistory",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Deals",
+                "id": "104423000000000043"
+            }
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Notes",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000069",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": true,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 32,
+            "singular_label": "Note",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Notes",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Notes",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": true,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Attachments",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000111",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 36,
+            "singular_label": "Attachment",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Attachments",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Attachments",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2023-03-06T20:25:18+05:30",
+            "plural_label": "Emails",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000113",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 37,
+            "singular_label": "Email",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "Emails",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Emails",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Actions Performed",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000000087",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 40,
+            "singular_label": "Actions Performed",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Actions_Performed",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Actions Performed",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Facebook",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000001320019",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 14205,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 52,
+            "singular_label": "Facebook",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Facebook",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Facebook",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Twitter",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000001320052",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 14205,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 53,
+            "singular_label": "Twitter",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Twitter",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Twitter",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "ShiftHours",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000000139009",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 14334,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 58,
+            "singular_label": "ShiftHour",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "ShiftHours",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "ShiftHours",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Scoring Rules",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000007149122",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 8194,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 58,
+            "singular_label": "Scoring Rule",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Scoring_Rules__s",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Scoring Rules",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Entity Scores",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000007149130",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": false,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 59,
+            "singular_label": "Entity Score",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Entity_Scores__s",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Entity Scores",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": "2022-02-14T19:09:56+05:30",
+            "track_current_data": true,
+            "plural_label": "Pick List 11 History",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000009262058",
+            "isBlueprintSupported": false,
+            "visible": false,
+            "visibility": 2,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 60,
+            "singular_label": "Pick List 11 History",
+            "viewable": true,
+            "api_supported": true,
+            "api_name": "Pick_List_11_History",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "field_tracker",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "LinkingModule3",
+            "business_card_field_limit": 5,
+            "parent_module": {
+                "api_name": "Contacts",
+                "id": "104423000000000039"
+            }
+        },
+        {
+            "global_search_supported": true,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": true,
+            "inventory_template_supported": false,
+            "modified_time": "2022-06-13T16:29:02+05:30",
+            "plural_label": "Ref Doctors",
+            "presence_sub_menu": true,
+            "triggers_supported": true,
+            "id": "104423000011580010",
+            "isBlueprintSupported": true,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": true,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 60,
+            "singular_label": "Ref Doctors",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Ref_Doctors",
+            "quick_create": false,
+            "modified_by": {
+                "name": "Ramesh",
+                "id": "104423000000122001"
+            },
+            "generated_type": "custom",
+            "feeds_required": false,
+            "scoring_supported": true,
+            "webform_supported": true,
+            "arguments": [],
+            "module_name": "CustomModule1",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": "contains monthly stats of data enrichment for an enabled module",
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Data Enrichment Stats",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000012961035",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 2046,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": false,
+            "web_link": null,
+            "sequence_number": 73,
+            "singular_label": "Data Enrichment Stats",
+            "viewable": false,
+            "api_supported": true,
+            "api_name": "Data_Enrichment_Stats__s",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "DataEnrichmentStats",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        },
+        {
+            "global_search_supported": false,
+            "deletable": false,
+            "description": null,
+            "creatable": false,
+            "email_parser_supported": false,
+            "inventory_template_supported": false,
+            "modified_time": null,
+            "plural_label": "Desk",
+            "presence_sub_menu": false,
+            "triggers_supported": false,
+            "id": "104423000014365009",
+            "isBlueprintSupported": false,
+            "visible": true,
+            "visibility": 1,
+            "convertable": false,
+            "editable": false,
+            "emailTemplate_support": false,
+            "profiles": [
+                {
+                    "name": "Administrator",
+                    "id": "104423000000031157"
+                },
+                {
+                    "name": "Standard",
+                    "id": "104423000000031160"
+                },
+                {
+                    "name": "Front Office",
+                    "id": "104423000009761010"
+                }
+            ],
+            "filter_supported": true,
+            "show_as_tab": true,
+            "web_link": null,
+            "sequence_number": 74,
+            "singular_label": "Desk",
+            "viewable": false,
+            "api_supported": false,
+            "api_name": "Desk",
+            "quick_create": false,
+            "modified_by": null,
+            "generated_type": "default",
+            "feeds_required": false,
+            "scoring_supported": false,
+            "webform_supported": false,
+            "arguments": [],
+            "module_name": "Desk",
+            "business_card_field_limit": 5,
+            "parent_module": {}
+        }
+    ]
+}
